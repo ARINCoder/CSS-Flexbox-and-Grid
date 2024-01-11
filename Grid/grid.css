@@ -1,0 +1,33 @@
+.grids{
+    width: 100vw;
+    height: 300px;
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.one, .two, .three{
+    background-color: red;
+}
+.one{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 20px;
+    background-color: white;
+    justify-content: stretch;
+    align-content: center;
+}
+.two{ background-color: black;
+}
+.three{
+    background-color: aqua;
+}
+#one-1{
+    background-color: yellow;
+}
+#two-2{
+    background-color: red;
+
+}
+#three-3{
+    background-color: green;
+}
