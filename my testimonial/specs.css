@@ -2,7 +2,7 @@ body{
     background-color: rgb(218, 237, 240);
     display: grid;
     padding: 0px;
-    margin: 0px;
+    margin: 100px;
     width: 100vw;
 }
 .container{
