@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(218, 237, 240);
+    background-color: rgb(192, 217, 221);
     display: grid;
+    justify-content: center;
     padding: 0px;
     margin: 100px;
     width: 100vw;
@@ -8,11 +9,14 @@ body{
 .container{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
     column-gap: 10px;
     border: 200px black;
-    justify-content: center;
-    align-content: center;
+    /* justify-content: center;
+    align-content: center; */
+    
+   
   
 }
 .container1{
@@ -28,38 +32,48 @@ body{
     column-gap: 10px;
     border: 10px black;
 
+
 }
 .container2{
     display: grid;
     grid-template-rows: 1fr
     column-gap: 10px;
+    width:1px
     border: 10px black;
+
 }
 
 .daniel{display: grid;
-    background-color: rgb(79, 77, 226);
+    background-color: rgba(27, 24, 204, 0.692);
     height: 30vh;
     width: 50vw;
     border-radius: 10px;
     font-size: small;
     text-align: center;    
+    font-weight: bolder;
+
 
 }
 .jonathan{ display: grid;
-background-color: rgba(4, 78, 163, 0.664);
+background-color: rgba(163, 4, 70, 0.664);
 width: 20vw;
 height: 30vh;
 border-radius: 10px;
 text-align: center;
 font-size: small;
+font-weight: bolder;
+
 
 }
 .jeanette{
     display: grid;
-    background-color: antiquewhite;
+    background-color: rgb(196, 135, 56);
     width: 20vw;
     height: 30vh;
 text-align: center;
+font-weight: bolder;
+border-radius: 10px;
+
 }
 .patrick{
     display: grid;
@@ -67,17 +81,51 @@ text-align: center;
     height: 30vh;
     width: 50vw;
     border-radius: 10px;
-    font-size: small;
     text-align: center;  
-    text-decoration: beige;
+    font-weight: bolder;
+
 }
 .kira{
     display: grid;
-    background-color: rgb(79, 77, 226);
+    background-color: rgb(2, 32, 39);
     height: 60vh;
     width: 20vw;
     border-radius: 10px;
     text-align: center;
+    font-weight: bolder;
     
 }
-img{border-radius: 10px;}
+img{border-radius: 100px;}
+#p{ 
+    display: grid;
+    align-items: center;
+text-align: center;
+padding-bottom: 5px;
+justify-content: flex-start;}
+.image{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+#p2{ width: 50px;
+height: 50px;}
+#p3{
+    display: flex;
+    width: 40px;
+align-items: center;}
+h3{ font-weight: 100px;
+font-size: x-large;}
+h4{ font-weight: bolder;
+    font-size: large;}
+h5{ font-weight: bolder;
+    font-size: large;}
+h7{ font-weight: bolder;
+    font-size: x-large;}
+h9{ font-weight: bolder;
+    font-size: x-large;}
+#p4{
+    color: aliceblue;
+}
+#h9{ 
+    color: aliceblue;
+}
