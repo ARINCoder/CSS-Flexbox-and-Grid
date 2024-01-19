@@ -1,0 +1,15 @@
+@import "./extras/reset.scss";
+@import "./extras/mobile.scss";
+ 
+
+@media screen and (min-width :500px) {
+    @import "./extras/medium.scss";
+
+    
+}
+@media screen and (min-width :1200px) {
+    @import "./extras/large.scss";
+
+    
+}
+
